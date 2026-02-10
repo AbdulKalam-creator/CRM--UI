@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRM UI Dashboard</title>
+
+  <!-- Optional: reuse your existing styles -->
+  <link rel="stylesheet" href="UI%20Files/crm-styles.css" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    a {
+      display: block;
+      padding: 15px;
+      background: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    a:hover {
+      background: #d62839;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>CRM UI Pages</h1>
+
+    <ul>
+      <li>
+        <a href="UI%20Files/DM%20Lead%20capture%20form.html">
+          Customer Details (Lead Capture)
+        </a>
+      </li>
+
+      <li>
+        <a href="UI%20Files/lead-list.html">
+          Lead List
+        </a>
+      </li>
+
+      <li>
+        <a href="UI%20Files/lead-details.html">
+          Lead Details
+        </a>
+      </li>
+
+      <li>
+        <a href="UI%20Files/lead-update.html">
+          Update Lead
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
